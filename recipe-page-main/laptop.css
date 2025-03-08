@@ -1,0 +1,153 @@
+h1,
+h2,
+h3 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+* {
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#content {
+    max-width: 700px;
+    margin: 100px 0;
+    background-color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+
+#image-omelette img {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    box-sizing: border-box;
+    border-radius: 20px 20px;
+}
+
+#image-omelette {
+    margin: 30px 30px;
+}
+
+#image {
+    width: 100%;
+}
+
+body {
+    font-size: 16px;
+    text-wrap: wrap;
+}
+
+#title {
+    margin: 20px 30px;
+    color: hsl(24, 5%, 18%);
+}
+
+#title p {
+    color: hsl(30, 10%, 34%);
+}
+
+#preparation-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px 25px;
+    color: hsl(332, 51%, 32%);
+    margin-top: 40px;
+}
+
+#preparation-time ul li {
+    margin: 10px 0;
+    color: hsl(30, 10%, 34%)
+}
+
+#ingredients {
+    margin: 0 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+#ingredients li {
+    margin: 10px 0;
+    color: hsl(30, 10%, 34%)
+}
+
+#instructions {
+    margin: 20px 30px 0px 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+#instructions li {
+    margin: 10px 0;
+    color: hsl(30, 10%, 34%)
+}
+
+#instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+
+#nutrition {
+    margin: 0 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+#nutrition p,
+#nutrition table {
+    margin: 20px 0;
+    color: hsl(30, 10%, 34%);
+    border-collapse: collapse;
+}
+
+#nutrition table {
+    width: 100%;
+}
+
+#nutrition tr {
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+
+
+#nutrition th,
+#nutrition td {
+    padding: 10px 0;
+    text-align: left;
+    padding-left: 25px;
+}
+
+#nutrition td {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+#nutrition tr:last-child {
+    border-bottom: none;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid hsl(30, 10%, 34%);
+    margin: 20px 30px;
+}
+
+strong {
+    font-weight: 600;
+}
