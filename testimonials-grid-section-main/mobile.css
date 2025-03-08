@@ -1,0 +1,90 @@
+* {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+
+}
+
+p {
+    font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+#background {
+    background-color: hsl(214, 17%, 92%);
+    padding: 70px 40px
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.user-image img {
+    width: 40px;
+    border-radius: 50%;
+    float: left;
+    border: 3px solid hsl(263, 55%, 52%);
+}
+
+.user-info {
+    margin-left: 65px;
+}
+
+.user-info h4,
+.user-info p {
+    margin: 0;
+}
+
+[id ^="user"] {
+
+    margin: 15px 0;
+    border-radius: 15px;
+    padding: 40px 35px;
+    box-shadow: 40px 20px 100px hsl(224, 10%, 45%);
+}
+
+#user1 {
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(214, 17%, 92%);
+}
+
+#user2 {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(214, 17%, 92%);
+}
+
+#user3 {
+    background-color: hsl(214, 17%, 92%);
+    color: hsl(217, 19%, 35%);
+}
+
+#user4 {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(214, 17%, 92%);
+}
+
+#user5 {
+    background-color: hsl(214, 17%, 92%);
+    color: hsl(217, 19%, 35%);
+}
+
+[id^="user"]:hover {
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
